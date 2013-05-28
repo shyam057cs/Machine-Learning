@@ -1,3 +1,12 @@
+"""
+ * wordsegment.py
+ *
+ * Author: Shyam Shankar <syamsankar91@gmail.com>
+ * Licensed under GPL Version 3
+ *
+ * It segments hashtags and urls into meaningful words
+"""
+
 fin = open("words.txt")
 import re
 

@@ -1,3 +1,18 @@
+/*
+ * Solution.java
+ *
+ * Author: Shyam Shankar <syamsankar91@gmail.com>
+ * Send me a mail if you find this useful! :)
+ * Licensed under GPL Version 3
+ *
+ * A simple spell checker which checks spelling errors and gives accurate suggestions. Based on Peter Norvig's work => http://norvig.com/spell-correct.html
+ *
+ * Usage: javac Solution.java
+ * 		: java Solution			
+*/
+
+
+
 import java.io.*;
 import java.util.*;
 import java.util.regex.*;

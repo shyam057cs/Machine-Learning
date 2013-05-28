@@ -1,3 +1,13 @@
+"""
+ * laptop_predict.py
+ *
+ * Author: Shyam Shankar <syamsankar91@gmail.com>
+ * Send me a mail if you find this useful! :)
+ * Licensed under GPL Version 3
+ *
+ * It predicts a value given a key, based on dictionary of key-value pairs even if the key is not present in the dictionary.
+"""
+
 import string,collections,decimal
 fin = open("trainingdata.txt")
 
