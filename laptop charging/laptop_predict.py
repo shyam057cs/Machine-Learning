@@ -2,6 +2,18 @@ import string,collections,decimal
 fin = open("trainingdata.txt")
 
 def predict(n,table):
+	"""
+	Summary
+	If given a key, it predicts a value based on dictionary 'table' which contains a list of keys and their corresponding values. Its speciality 
+	is even if the key is not in the dictionary, it is able to predict a value based on the existing key:value pairs in the dictionary.
+	
+	Usage
+	predicted_value = predict(key,dictionary)
+	
+	Limitations
+	It only works for numerical values 
+	
+	"""
     if n in table:
         print table[n]
         return
